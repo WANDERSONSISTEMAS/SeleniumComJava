@@ -28,5 +28,9 @@ mvn test
 ----------
 
 PARA RODAR OS TESTES SEM INSTALAR O MAVEN É SÓ ACESSAR O ARQUIVO RunnerTest E CLICAR NA SETA DE RUN.
+# Contato:
+- Meu e-mail: wanderson.ipms@gmail.com
+- Linkedin: https://www.linkedin.com/in/wanderson-souza-071186100/
+
 
 
