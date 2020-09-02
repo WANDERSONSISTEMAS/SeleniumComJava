@@ -1,0 +1,101 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 808960400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Que eu abra o site da enjoei",
+            "match": {
+              "location": "HomePageSteps.userAccessTheAmericanasWebsite()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6610673600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Cadastro com BDD upgrade",
+        "description": "",
+        "id": "cadastrar-usuario-enjoei;cadastro-com-bdd-upgrade",
+        "after": [
+          {
+            "result": {
+              "duration": 4167244400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6491789600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "eu clico em cadastrar",
+            "match": {
+              "location": "HomePageSteps.clicoCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1017436600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "eu preencher meus dados",
+            "match": {
+              "location": "HomePageSteps.preencherDados()"
+            },
+            "keyword": "Quando "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Portugues2"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastrar Usuario Enjoei",
+    "description": "",
+    "id": "cadastrar-usuario-enjoei",
+    "keyword": "Funcionalidade",
+    "uri": "TelaHome.feature"
+  }
+]
